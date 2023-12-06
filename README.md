@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repo Results summary component](https://github.com/Aphelion-im/Results-summary-component)
+- Live Site URL: [Results summary component on Netlify](https://github.com/Aphelion-im/Results-summary-component)
 
 ## My process
 
