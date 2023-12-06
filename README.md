@@ -53,7 +53,7 @@ Users should be able to:
 * That you don't have to compile Sass when using ViteJS.
 * Display: flex, ruins border-radius: 50%;
 * How you can import a JSON file. With import and with Fetch API. See the article below in the "Useful resources" section.
-* Vite handles media and images differently and seemingly must be placed in the public directory. [Stackoverflow: Assets not showing after build process with vite and vue3](https://stackoverflow.com/questions/68547439/assets-not-showing-after-build-process-with-vite-and-vue3)
+* Vite handles media and images differently and seemingly must be placed in the public directory. Vite will then include them in the dist folder. [Stackoverflow: Assets not showing after build process with vite and vue3](https://stackoverflow.com/questions/68547439/assets-not-showing-after-build-process-with-vite-and-vue3)
 
 ### Continued development
 
