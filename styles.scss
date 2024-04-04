@@ -101,6 +101,10 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
+.hidden {
+  display: none;
+}
+
 p {
   font-size: 18px;
 }
@@ -112,7 +116,11 @@ p {
   display: inline-block;
   text-align: center;
   background: rgb(49, 46, 221);
-  background: linear-gradient(0deg, rgba(49, 46, 221, 1) 0%, rgba(103, 67, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(49, 46, 221, 1) 0%,
+    rgba(103, 67, 255, 1) 100%
+  );
 
   h1 {
     color: #bbb;
@@ -143,7 +151,11 @@ p {
     align-items: center;
     margin: 0 auto;
     background: rgb(71, 52, 240);
-    background: linear-gradient(0deg, rgba(71, 52, 240, 1) 0%, rgba(77, 34, 201, 1) 100%);
+    background: linear-gradient(
+      0deg,
+      rgba(71, 52, 240, 1) 0%,
+      rgba(77, 34, 201, 1) 100%
+    );
 
     p:first-child {
       color: $white;
@@ -237,7 +249,6 @@ p {
 
 /********** Media Queries **********/
 @media screen and (min-width: 375px) {
-
   .component-container {
     flex-direction: column;
     width: 100%;
